@@ -83,3 +83,27 @@ header nav a:hover {
     height: 10px;
     border-radius: 50%;
 }
+{
+    width: 100%;
+    min-width: 360px;
+    max-width: 1280px;
+    margin: auto;
+} */
+
+/*Mobile */
+@media (max-width:600px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+    }
+
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-torggle-icon{
+        background-image: url(/img/icons/bars-solid.svg);
+    }
+}
